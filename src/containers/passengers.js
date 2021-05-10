@@ -40,7 +40,7 @@ const Passengers = () => {
     try {
       await deletePassenger(id);
       setPassenger(passengerEmpty);
-      setPassengers(passengers.filter((p) => p.id != id));
+      setPassengers(passengers.filter((p) => p.id !== id));
       history.push("/passengers");
     } catch (err) {
       console.log(err);

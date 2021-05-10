@@ -49,7 +49,7 @@ const ListComponent = ({ passengers, fetchPassenger }) => {
           >
             <List.Item
               onClick={() => fetchPassenger(item.id)}
-              className={`${arr[2] == item.id && "selectedItem"}`}
+              className={`${arr[2] === item.id && "selectedItem"}`}
             >
               {item.name}
             </List.Item>
