@@ -15,7 +15,7 @@
     > - **POSTGRES_USER** = *si tiene usuario configurado para la utilización de postgres insertarlo aquí*
     > - **POSTGRES_PASSWORD** = *si tiene contraseña configurada para la utilización de postgres insertarlo aquí*
 
-5.  Correr **npm run seed** en la consola, parado sobre la carpeta raíz, para seedar la base de datos
+5.  Correr **npm run seed** en la consola, parado sobre la carpeta raíz, para seedear la base de datos
 
 6.  Correr **npm start** en la consola, parado sobre la carpeta raíz, para inicializar el proyecto
 
