@@ -1,0 +1,32 @@
+.mainContainer {
+  min-height: 80vh;
+  max-height: 90vh;
+  display: flex;
+}
+
+.userContainer {
+  min-height: 80vh;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2%;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsContainer {
+  width: 100%;
+  margin-top: auto;
+  background-color: #001529;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonsContainer :nth-child(1n + 1) {
+  margin: 15px;
+}
+.buttonsContainer :nth-child(1n + 1) span {
+  margin: auto;
+}

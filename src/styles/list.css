@@ -1,0 +1,42 @@
+.listContainer {
+  width: 15vw;
+  height: 80vh;
+  border: 1px solid rgba(128, 128, 128, 0.527);
+}
+
+.searcher {
+  height: 7%;
+  padding: 5px;
+}
+
+.list {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 93%;
+}
+
+.list::-webkit-scrollbar {
+  width: 3px;
+}
+.list::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px #001529;
+  background: #001529;
+}
+.list::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.listItem {
+  cursor: pointer;
+}
+
+.listItem :hover {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.selectedItem {
+  background-color: #349cfd;
+  color: red;
+}
